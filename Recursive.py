@@ -1,14 +1,11 @@
-import sys
-NO_PATH = sys.maxsize
-
-
 def floyd_input(graph):
 
-    max_length = len(graph[0])
+    max_length = len(graph)
 
     def recursion_floyd(start_node, end_node, intermediate):
-        if intermediate == 0:
+        if intermediate == -1:
             return graph[start_node][end_node]
+
         else:
             return min(recursion_floyd(start_node, end_node, intermediate - 1),
                        recursion_floyd(start_node, intermediate, intermediate - 1) +
