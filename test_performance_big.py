@@ -11,4 +11,4 @@ sys.path.append(os.path.dirname(SCRIPT_DIR))
 floydwarshall(test_graph_c)
 
 if __name__ == "__main__":
-    cProfile.run("floydwarshall(test_graph_a)")
+    cProfile.run("floydwarshall(test_graph_c)")
