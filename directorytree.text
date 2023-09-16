@@ -1,13 +1,21 @@
 C:.
+├───.idea
+│
+├───Floydwarshall
+│       function.py
+│
+│   .gitignore
+│   Floyd Warshall Algorithm_imperative
 │   LICENSE
 │   README.md
-│   requirements.txt
+│   __init__.py
+│   directorytree.text
+│   requirements.text
+│   test-performance.py
+│   test_cases.py
+│   test-performance_big.py
+│   test_unit.py
 │
-├───floydwarshall
-│       function.py
-│       __init__.py
-│
-└───tests
-        test_cases.py
-        test_performance.py
-        test_unit.py
+
+
+
